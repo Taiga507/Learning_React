@@ -41,7 +41,10 @@ const EmployeesListItem = (props) => {
 
     return (
         <li className={classNames}>
-            <span tabIndex={0} className="list-group-item-label" onClick={onToggleProp} data-toggle='rise'
+            <span tabIndex={0}
+                className="list-group-item-label"
+                onClick={onToggleProp}
+                data-toggle='rise'
                 onKeyDown={(e) => {
                     if (e.key === 'Enter' || e.key === ' ') {
                         e.preventDefault();
