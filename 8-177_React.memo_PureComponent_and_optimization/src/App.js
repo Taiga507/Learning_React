@@ -25,8 +25,15 @@ import './App.css';
 // }, propsCompare);
 
 class Form extends PureComponent {
+	shouldComponentUpdate(nextProps, nextState) {
+		if (this.props.mail.name === nextProps.mail.name) {
+			return false
+		} return true
+	}
+
 	render() {
 		console.log('re');
+
 		return (
 			<Container>
 				<form className="w-50 border mt-5 p-3 m-auto">
