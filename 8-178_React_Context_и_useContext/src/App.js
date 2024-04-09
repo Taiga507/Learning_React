@@ -74,8 +74,13 @@ const InputComponent = () => {
 function App() {
 	const [data, setData] = useState({
 		mail: "name@example.com",
-		text: 'some text'
+		text: 'some text',
+		forceChageMail: forceChageMail
 	});
+
+	function forceChageMail() {
+		setData({...data, mail: 'test@gmail.com'})
+	}
 
 	return (
 		<Provider value={data}>
