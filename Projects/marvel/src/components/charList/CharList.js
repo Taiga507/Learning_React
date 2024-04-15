@@ -80,7 +80,7 @@ const CharList = (props) => {
                             props.onCharSelected(item.id);
                             focusOnItem(i);
                         }}
-                        onKeyPress={(e) => {
+                        onKeyDown={(e) => {
                             if (e.key === ' ' || e.key === "Enter") {
                                 props.onCharSelected(item.id);
                                 focusOnItem(i);
@@ -107,8 +107,6 @@ const CharList = (props) => {
         // eslint-disable-next-line
     }, [process])
 
-    // TransitionGroup работать не будет за счет постоянного пересоздания компонента
-    // разбор в следующем уроке
     return (
         <div className="char__list">
             {elements}
