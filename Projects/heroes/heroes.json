@@ -1,55 +1,54 @@
 {
-  "heroes": [
-    {
-      "id": "b3e36839-2913-4a10-be38-aab259e6de9a",
-      "name": "Алексей",
-      "description": "123213",
-      "element": "fire"
-    },
-    {
-      "id": "8405f4cc-7a7a-4643-a779-b47e816a5b59",
-      "name": "taiga_d",
-      "description": "121231",
-      "element": "water"
-    },
-    {
-      "id": "6e7c0369-575c-47fb-a752-583953204484",
-      "name": "Жерегеля Алексей Александрович",
-      "description": "507",
-      "element": "wind"
-    },
-    {
-      "id": "21771e9a-8368-4d04-9d08-fae542224cea",
-      "name": "Алексей",
-      "description": "414124",
-      "element": "earth"
-    }
-  ],
-  "filters": [
-    {
-      "name": "all",
-      "label": "Все",
-      "className": "btn-outline-dark"
-    },
-    {
-      "name": "fire",
-      "label": "Огонь",
-      "className": "btn-danger"
-    },
-    {
-      "name": "water",
-      "label": "Вода",
-      "className": "btn-primary"
-    },
-    {
-      "name": "wind",
-      "label": "Ветер",
-      "className": "btn-success"
-    },
-    {
-      "name": "earth",
-      "label": "Земля",
-      "className": "btn-secondary"
-    }
-  ]
+	"heroes": [
+		{
+			"id": 1,
+			"name": "Первый герой",
+			"description": "Первый герой в рейтинге!",
+			"element": "fire"
+		},
+		{
+			"id": 2,
+			"name": "Неизвестный герой",
+			"description": "Скрывающийся в тени",
+			"element": "wind"
+		},
+		{
+			"id": 3,
+			"name": "Морской герой",
+			"description": "Как аквамен, но не из DC",
+			"element": "water"
+		}
+	],
+ 	"filters": [
+		{
+			"id": "all",
+			"name": "all",
+			"label": "Все",
+			"className": "btn-outline-dark"
+		},
+		{
+			"id": "fire",
+			"name": "fire",
+			"label": "Огонь",
+			"className": "btn-danger"
+		},
+		{
+			"id": "water",
+			"name": "water",
+			"label": "Вода",
+			"className": "btn-primary"
+		},
+		{
+			"id": "wind",
+			"name": "wind",
+			"label": "Ветер",
+			"className": "btn-success"
+		},
+		{
+			"id": "earth",
+			"name": "earth",
+			"label": "Земля",
+			"className": "btn-secondary"
+		}
+  	]
 }
