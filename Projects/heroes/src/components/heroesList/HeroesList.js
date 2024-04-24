@@ -7,10 +7,10 @@ import {
 	heroDeleted,
 	fetchHeroes,
 	filteredHeroesSelector,
-} from "./heroesSlice";
+} from './heroesSlice';
 
 import HeroesListItem from "../heroesListItem/HeroesListItem";
-import Spinner from "../spinner/Spinner";
+import Spinner from '../spinner/Spinner';
 
 import "./heroesList.scss";
 
